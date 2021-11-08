@@ -1,11 +1,21 @@
-.premiery > table >tr >td > img {
+
+.premiery  >tr >td > img {
     height: 200px;
+    margin-left: 20px;
+}
+.putap >tr>td{
+    padding: 20px;
+    border-spacing: 20px;
 }
 table,
 th,
 td {
     border: 1px dotted black;
     border-collapse: collapse;
+    cursor: url("../img/twitter.png"), auto;
+    padding: 20px;
+    border-spacing: 20px;
+
 }
 
 th,
@@ -29,9 +39,8 @@ table {
 }
 
 th, td {
-    text-align: centr;
-    padding: 8px;
-    border: px solid black;
+    text-align:center;
+    padding: 8px;;
 }
 
 tr:nth-child(even){background-color: #f2f2f2}
@@ -132,25 +141,29 @@ h1{
 p {
     font-size: 13pt;
 }
-/* a:link {
-  color: #265301;
+
+.rezys{
+    list-style-image: url("../img/director.png");
+    width:10px;
+    height:10px;
 }
 
-a:visited {
-  color: #437A16;
+.film {
+    list-style-type: upper-roman;
 }
 
-a:focus {
-  border-bottom: 1px solid;
-  background: #BAE498;
+
+
+.move{
+    list-style-image: url("../img/film-clapper.png");
 }
 
-a:hover {
-  border-bottom: 1px solid;
-  background: #CDFEAA;
+
+td{
+    padding: 20px;
+}
+a[href*="about.html"]{
+    cursor: help;
+
 }
 
-a:active {
-  background: #265301;
-  color: #CDFEAA;
-}*/
